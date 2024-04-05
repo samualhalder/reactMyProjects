@@ -1,0 +1,26 @@
+/* Style scrollbar for overflow containers */
+.bg-purple-200 ::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.bg-purple-200 ::-webkit-scrollbar-track {
+  background: #095bce; /* Background color of the track */
+}
+
+.bg-purple-200 ::-webkit-scrollbar-thumb {
+  background: #095bce; /* Color of the scrollbar */
+  border-radius: 6px; /* Rounded corners of the scrollbar */
+}
+
+/* Firefox scrollbar */
+.bg-purple-200 {
+  scrollbar-width: thin;
+  scrollbar-color: #095bce #6366f1;
+}
+
+/* For Firefox 63 and below */
+/* Only scrollbar color can be styled */
+.bg-purple-200 {
+  scrollbar-face-color: #095bce; /* Color of the scrollbar */
+  scrollbar-track-color: #6366f1; /* Background color of the track */
+}
